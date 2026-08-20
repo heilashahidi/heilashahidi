@@ -10,9 +10,7 @@
 ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat&logo=solana&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
-![Heila's GitHub stats](https://github-readme-stats.vercel.app/api?username=heilashahidi&show_icons=true&hide_title=true&count_private=true&theme=default)
-![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=heilashahidi&layout=compact&hide=html,css)
-![Streak stats](https://github-readme-streak-stats.demolab.com/?user=heilashahidi&theme=default)
+![Streak stats](https://streak-stats.demolab.com/?user=heilashahidi&theme=default)
 
 **Recent activity**
 <!--START_SECTION:activity-->
