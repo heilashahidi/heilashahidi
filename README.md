@@ -14,12 +14,6 @@
 ![Top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=heilashahidi&layout=compact&hide=html,css)
 ![Streak stats](https://github-readme-streak-stats.demolab.com/?user=heilashahidi&theme=default)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heilashahidi/heilashahidi/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heilashahidi/heilashahidi/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution grid snake animation" src="https://raw.githubusercontent.com/heilashahidi/heilashahidi/output/github-contribution-grid-snake.svg" />
-</picture>
-
 **Recent activity**
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#1](https://github.com/HouseAccountEng/alt/pull/1) in [HouseAccountEng/alt](https://github.com/HouseAccountEng/alt)
