@@ -9,3 +9,5 @@ Software engineer building AI agents, real-time systems, and full-stack products
 - [bilingual-whatsapp-platform](https://github.com/heilashahidi/bilingual-whatsapp-platform) — real-time WhatsApp/web bridge serving 1,000+ field agents across three countries
 
 Python · TypeScript · React · FastAPI · Solana
+
+[LinkedIn](https://www.linkedin.com/in/heilashahidi/)
