@@ -55,19 +55,21 @@
       <circle cx="155" cy="177" r="5"/>
     </g>
 
-    <!-- Five-petal flower attached to the stem -->
+    <!-- Six evenly spaced petals fully surround the flower center -->
     <g transform="translate(110 78) scale(0.82)" filter="url(#shadow)">
-      <path d="M0 0C-12-7-24-18-22-36C-5-32 4-18 0 0Z" fill="#C98293"/>
-      <path d="M0 0C0-14 8-31 24-39C28-20 19-5 0 0Z" fill="#B49ABC"/>
-      <path d="M0 0C14-10 33-11 49 0C34 14 16 16 0 0Z" fill="#AD8EB3"/>
-      <path d="M0 0C14 8 22 25 16 42C-2 33-8 17 0 0Z" fill="#C68A9D"/>
-      <path d="M0 0C-13 10-30 10-44-1C-31-16-14-15 0 0Z" fill="#D0929F"/>
+      <path d="M0 0C-11-8-13-23 0-38C13-23 11-8 0 0Z" fill="#C98293"/>
+      <path d="M0 0C-11-8-13-23 0-38C13-23 11-8 0 0Z" fill="#B49ABC" transform="rotate(60)"/>
+      <path d="M0 0C-11-8-13-23 0-38C13-23 11-8 0 0Z" fill="#AD8EB3" transform="rotate(120)"/>
+      <path d="M0 0C-11-8-13-23 0-38C13-23 11-8 0 0Z" fill="#C68A9D" transform="rotate(180)"/>
+      <path d="M0 0C-11-8-13-23 0-38C13-23 11-8 0 0Z" fill="#D0929F" transform="rotate(240)"/>
+      <path d="M0 0C-11-8-13-23 0-38C13-23 11-8 0 0Z" fill="#B995B6" transform="rotate(300)"/>
       <g stroke="#FCEFF2" stroke-width="1.2" stroke-linecap="round" opacity="0.72">
-        <path d="M0 0L-16-29"/>
-        <path d="M0 0L19-31"/>
-        <path d="M0 0L39 1"/>
-        <path d="M0 0L12 33"/>
-        <path d="M0 0L-34-1"/>
+        <path d="M0 0V-30"/>
+        <path d="M0 0V-30" transform="rotate(60)"/>
+        <path d="M0 0V-30" transform="rotate(120)"/>
+        <path d="M0 0V-30" transform="rotate(180)"/>
+        <path d="M0 0V-30" transform="rotate(240)"/>
+        <path d="M0 0V-30" transform="rotate(300)"/>
       </g>
       <circle r="10" fill="#E8BD72"/>
       <circle r="4" fill="#FFF4CF"/>
