@@ -61,16 +61,30 @@
     <ellipse cx="1007" cy="103" rx="20" ry="8" transform="rotate(35 1007 103)" opacity="0.62"/>
   </g>
 
-  <!-- Stylized flower -->
+  <!-- Five-petal flower matching the profile avatar -->
   <g transform="translate(1000 70)" filter="url(#shadow)">
-    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#D9A0B3" transform="rotate(0)"/>
-    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#D29AAC" transform="rotate(60)"/>
-    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#C593AA" transform="rotate(120)"/>
-    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#BD8EA9" transform="rotate(180)"/>
-    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#B58AAE" transform="rotate(240)"/>
-    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#AD87B7" transform="rotate(300)"/>
-    <circle r="13" fill="#F3D3A5"/>
-    <circle r="5" fill="#8A5C74"/>
+    <path d="M0 0C-12-7-24-18-22-36C-5-32 4-18 0 0Z" fill="#C98293"/>
+    <path d="M0 0C0-14 8-31 24-39C28-20 19-5 0 0Z" fill="#B49ABC"/>
+    <path d="M0 0C14-10 33-11 49 0C34 14 16 16 0 0Z" fill="#AD8EB3"/>
+    <path d="M0 0C14 8 22 25 16 42C-2 33-8 17 0 0Z" fill="#C68A9D"/>
+    <path d="M0 0C-13 10-30 10-44-1C-31-16-14-15 0 0Z" fill="#D0929F"/>
+    <g stroke="#FCEFF2" stroke-width="1.2" stroke-linecap="round" opacity="0.72">
+      <path d="M0 0L-16-29"/>
+      <path d="M0 0L19-31"/>
+      <path d="M0 0L39 1"/>
+      <path d="M0 0L12 33"/>
+      <path d="M0 0L-34-1"/>
+    </g>
+    <circle r="10" fill="#E8BD72"/>
+    <circle r="4" fill="#FFF4CF"/>
+    <g fill="#F8DE9C">
+      <circle cx="-11" cy="-2" r="2"/>
+      <circle cx="-5" cy="-10" r="2"/>
+      <circle cx="5" cy="-10" r="2"/>
+      <circle cx="11" cy="-2" r="2"/>
+      <circle cx="7" cy="8" r="2"/>
+      <circle cx="-7" cy="8" r="2"/>
+    </g>
   </g>
 
   <!-- Circuit constellation -->
