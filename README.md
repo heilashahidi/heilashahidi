@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/botanical-header-v4.svg" alt="Heila Shahidi — Software Engineer" width="100%" />
+  <img src="./assets/botanical-header-v5.svg" alt="Heila Shahidi — Software Engineer" width="100%" />
 
   <br />
 
