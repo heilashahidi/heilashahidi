@@ -1,49 +1,102 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="background" x1="75" y1="20" x2="1110" y2="290" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1020"/>
-      <stop offset="0.52" stop-color="#111B35"/>
-      <stop offset="1" stop-color="#102A33"/>
+    <linearGradient id="canvas" x1="35" y1="18" x2="1165" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F7"/>
+      <stop offset="0.52" stop-color="#F8EEF3"/>
+      <stop offset="1" stop-color="#EEE8F6"/>
     </linearGradient>
-    <linearGradient id="accent" x1="190" y1="80" x2="1000" y2="250" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8B5CF6"/>
-      <stop offset="0.5" stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#34D399"/>
+    <linearGradient id="petal" x1="870" y1="40" x2="1120" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9A0B3"/>
+      <stop offset="1" stop-color="#AD87B7"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(995 42) rotate(137) scale(420 280)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="35"/>
+    <linearGradient id="line" x1="88" y1="0" x2="730" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C17A94"/>
+      <stop offset="0.55" stop-color="#9C759F"/>
+      <stop offset="1" stop-color="#718D86"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#6F526B" fill-opacity="0.08"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#573B55" flood-opacity="0.1"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="300" rx="24" fill="url(#background)"/>
-  <rect width="1200" height="300" rx="24" fill="url(#glow)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#canvas)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#dots)"/>
+  <rect x="18" y="18" width="1164" height="284" rx="20" stroke="#B98CA0" stroke-opacity="0.22"/>
 
-  <g opacity="0.15">
-    <path d="M0 55H1200M0 110H1200M0 165H1200M0 220H1200M0 275H1200" stroke="#94A3B8"/>
-    <path d="M85 0V300M185 0V300M285 0V300M385 0V300M485 0V300M585 0V300M685 0V300M785 0V300M885 0V300M985 0V300M1085 0V300" stroke="#94A3B8"/>
+  <!-- Left botanical circuit -->
+  <g stroke="#718D86" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.72">
+    <path d="M0 270C48 270 67 244 79 210C91 176 108 153 144 145"/>
+    <path d="M70 233C45 220 31 201 28 178"/>
+    <path d="M89 192C72 175 67 157 70 137"/>
+    <path d="M108 163C112 137 126 120 149 109"/>
+    <path d="M70 233H37V252H10"/>
+    <path d="M108 163H136V181H161"/>
+  </g>
+  <g fill="#FFF9F7" stroke="#9C759F" stroke-width="2">
+    <circle cx="10" cy="252" r="5"/>
+    <circle cx="161" cy="181" r="5"/>
+    <circle cx="28" cy="178" r="4"/>
+  </g>
+  <g fill="#A9BBAF" fill-opacity="0.7">
+    <ellipse cx="45" cy="215" rx="18" ry="8" transform="rotate(35 45 215)"/>
+    <ellipse cx="75" cy="175" rx="18" ry="8" transform="rotate(62 75 175)"/>
+    <ellipse cx="124" cy="135" rx="20" ry="8" transform="rotate(-38 124 135)"/>
   </g>
 
-  <circle cx="1040" cy="70" r="95" fill="#38BDF8" fill-opacity="0.08" filter="url(#blur)"/>
-  <path d="M930 63L962 81L994 63L1026 81L1058 63L1090 81" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
-  <circle cx="930" cy="63" r="7" fill="#8B5CF6"/>
-  <circle cx="962" cy="81" r="7" fill="#6478F5"/>
-  <circle cx="994" cy="63" r="7" fill="#38BDF8"/>
-  <circle cx="1026" cy="81" r="7" fill="#35C9CA"/>
-  <circle cx="1058" cy="63" r="7" fill="#34D399"/>
-  <circle cx="1090" cy="81" r="7" fill="#34D399"/>
+  <!-- Right floral network -->
+  <g stroke="#718D86" stroke-width="2.2" stroke-linecap="round" opacity="0.78">
+    <path d="M1200 288C1149 276 1122 245 1106 203C1092 166 1070 142 1028 124"/>
+    <path d="M1135 255C1163 236 1177 214 1178 186"/>
+    <path d="M1111 215C1134 193 1141 170 1137 146"/>
+    <path d="M1085 169C1066 150 1055 128 1057 104"/>
+    <path d="M1028 124C995 110 975 88 968 59"/>
+  </g>
+  <g fill="#A9BBAF">
+    <ellipse cx="1155" cy="226" rx="23" ry="9" transform="rotate(-42 1155 226)" opacity="0.72"/>
+    <ellipse cx="1129" cy="188" rx="21" ry="8" transform="rotate(-58 1129 188)" opacity="0.68"/>
+    <ellipse cx="1072" cy="143" rx="22" ry="9" transform="rotate(42 1072 143)" opacity="0.72"/>
+    <ellipse cx="1007" cy="103" rx="20" ry="8" transform="rotate(35 1007 103)" opacity="0.62"/>
+  </g>
 
-  <text x="72" y="126" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="54" font-weight="700" letter-spacing="-1.5">
+  <!-- Stylized flower -->
+  <g transform="translate(1000 70)" filter="url(#shadow)">
+    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#D9A0B3" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#D29AAC" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#C593AA" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#BD8EA9" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#B58AAE" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-25" rx="15" ry="27" fill="#AD87B7" transform="rotate(300)"/>
+    <circle r="13" fill="#F3D3A5"/>
+    <circle r="5" fill="#8A5C74"/>
+  </g>
+
+  <!-- Circuit constellation -->
+  <g stroke="#B48A78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+    <path d="M892 245H937V224H978V247H1020"/>
+    <path d="M937 224V190H972"/>
+    <path d="M1020 247H1051V268H1084"/>
+  </g>
+  <g fill="#FFF9F7" stroke="#B48A78" stroke-width="2">
+    <circle cx="892" cy="245" r="5"/>
+    <circle cx="972" cy="190" r="5"/>
+    <circle cx="1084" cy="268" r="5"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="178" y="124" fill="#432D40" font-family="Georgia, 'Times New Roman', serif" font-size="61" font-weight="600" letter-spacing="-1">
     Heila Shahidi
   </text>
-  <rect x="72" y="152" width="590" height="4" rx="2" fill="url(#accent)"/>
-  <text x="72" y="202" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="25" font-weight="450" letter-spacing="0.2">
-    Software Engineer &#183; AI Systems &#183; Full-Stack Products
+  <path d="M180 145H719" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="732" cy="145" r="4" fill="#B48A78"/>
+
+  <rect x="178" y="170" width="780" height="48" rx="24" fill="#FFFFFF" fill-opacity="0.62" stroke="#B98CA0" stroke-opacity="0.35"/>
+  <text x="205" y="201" fill="#684F65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="550" letter-spacing="0.4">
+    SOFTWARE ENGINEER  &#183;  AI SYSTEMS  &#183;  FULL-STACK PRODUCTS
   </text>
-  <text x="72" y="247" fill="#7DD3FC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17">
-    building reliable intelligence into real-world software
+  <text x="181" y="260" fill="#816779" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17">
+    growing thoughtful technology, one system at a time
   </text>
 </svg>
