@@ -1,0 +1,101 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="canvas" x1="35" y1="18" x2="1165" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F7"/>
+      <stop offset="0.52" stop-color="#F8EEF3"/>
+      <stop offset="1" stop-color="#EEE8F6"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="870" y1="40" x2="1120" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9A0B3"/>
+      <stop offset="1" stop-color="#AD87B7"/>
+    </linearGradient>
+    <linearGradient id="line" x1="88" y1="0" x2="730" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C17A94"/>
+      <stop offset="0.55" stop-color="#9C759F"/>
+      <stop offset="1" stop-color="#718D86"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#6F526B" fill-opacity="0.08"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#573B55" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#canvas)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#dots)"/>
+  <rect x="18" y="18" width="1164" height="284" rx="20" stroke="#B98CA0" stroke-opacity="0.22"/>
+
+  <!-- Mirrored botanical circuits keep both sides precisely aligned -->
+  <g id="botanical-side">
+    <g stroke="#718D86" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity="0.76">
+      <path d="M0 286C42 282 69 252 82 216C95 180 96 118 110 78"/>
+      <path d="M55 254C35 237 24 217 24 194"/>
+      <path d="M78 224C56 209 47 190 49 168"/>
+      <path d="M92 183C72 171 62 153 63 132"/>
+      <path d="M101 140C82 128 75 110 78 92"/>
+      <path d="M82 216C102 206 116 190 123 171"/>
+      <path d="M94 176C111 164 120 149 122 132"/>
+    </g>
+
+    <g fill="#A9BBAF" fill-opacity="0.74">
+      <ellipse cx="47" cy="238" rx="19" ry="8" transform="rotate(40 47 238)"/>
+      <ellipse cx="70" cy="205" rx="19" ry="8" transform="rotate(48 70 205)"/>
+      <ellipse cx="85" cy="164" rx="19" ry="8" transform="rotate(55 85 164)"/>
+      <ellipse cx="94" cy="122" rx="18" ry="7.5" transform="rotate(61 94 122)"/>
+      <ellipse cx="110" cy="194" rx="18" ry="7.5" transform="rotate(-38 110 194)"/>
+      <ellipse cx="115" cy="147" rx="18" ry="7.5" transform="rotate(-50 115 147)"/>
+    </g>
+
+    <g stroke="#B48A78" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.7">
+      <path d="M71 239H42V258H16"/>
+      <path d="M91 184H128V203H155"/>
+    </g>
+    <g fill="#FFF9F7" stroke="#9C759F" stroke-width="2">
+      <circle cx="16" cy="258" r="5"/>
+      <circle cx="155" cy="203" r="5"/>
+    </g>
+
+    <!-- Five-petal flower attached to the stem -->
+    <g transform="translate(110 78) scale(0.82)" filter="url(#shadow)">
+      <path d="M0 0C-12-7-24-18-22-36C-5-32 4-18 0 0Z" fill="#C98293"/>
+      <path d="M0 0C0-14 8-31 24-39C28-20 19-5 0 0Z" fill="#B49ABC"/>
+      <path d="M0 0C14-10 33-11 49 0C34 14 16 16 0 0Z" fill="#AD8EB3"/>
+      <path d="M0 0C14 8 22 25 16 42C-2 33-8 17 0 0Z" fill="#C68A9D"/>
+      <path d="M0 0C-13 10-30 10-44-1C-31-16-14-15 0 0Z" fill="#D0929F"/>
+      <g stroke="#FCEFF2" stroke-width="1.2" stroke-linecap="round" opacity="0.72">
+        <path d="M0 0L-16-29"/>
+        <path d="M0 0L19-31"/>
+        <path d="M0 0L39 1"/>
+        <path d="M0 0L12 33"/>
+        <path d="M0 0L-34-1"/>
+      </g>
+      <circle r="10" fill="#E8BD72"/>
+      <circle r="4" fill="#FFF4CF"/>
+      <g fill="#F8DE9C">
+        <circle cx="-11" cy="-2" r="2"/>
+        <circle cx="-5" cy="-10" r="2"/>
+        <circle cx="5" cy="-10" r="2"/>
+        <circle cx="11" cy="-2" r="2"/>
+        <circle cx="7" cy="8" r="2"/>
+        <circle cx="-7" cy="8" r="2"/>
+      </g>
+    </g>
+  </g>
+  <use href="#botanical-side" transform="translate(1200 0) scale(-1 1)"/>
+
+  <!-- Typography -->
+  <text x="178" y="124" fill="#432D40" font-family="Georgia, 'Times New Roman', serif" font-size="61" font-weight="600" letter-spacing="-1">
+    Heila Shahidi
+  </text>
+  <path d="M180 145H719" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="732" cy="145" r="4" fill="#B48A78"/>
+
+  <rect x="178" y="170" width="780" height="48" rx="24" fill="#FFFFFF" fill-opacity="0.62" stroke="#B98CA0" stroke-opacity="0.35"/>
+  <text x="205" y="201" fill="#684F65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="550" letter-spacing="0.4">
+    SOFTWARE ENGINEER  &#183;  AI SYSTEMS  &#183;  FULL-STACK PRODUCTS
+  </text>
+  <text x="181" y="260" fill="#816779" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="17">
+    growing thoughtful technology, one system at a time
+  </text>
+</svg>
